@@ -1,0 +1,33 @@
+window {
+    background: rgba({{colors.surface.dark.red}}, {{colors.surface.dark.green}}, {{colors.surface.dark.blue}}, 0.82);
+
+    border-radius: 18px;
+
+    border: 1px solid rgba({{colors.outline.dark.red}}, {{colors.outline.dark.green}}, {{colors.outline.dark.blue}}, 0.25);
+}
+
+progressbar {
+    min-height: 10px;
+
+    border-radius: 999px;
+
+    background: rgba({{colors.surface_container.dark.red}}, {{colors.surface_container.dark.green}}, {{colors.surface_container.dark.blue}}, 0.8);
+}
+
+progress {
+    border-radius: 999px;
+
+    background: {{colors.primary.dark.hex}};
+}
+
+image {
+    color: {{colors.on_surface.dark.hex}};
+}
+
+label {
+    color: {{colors.on_surface.dark.hex}};
+
+    font-family: "JetBrainsMono Nerd Font";
+
+    font-size: 14px;
+}

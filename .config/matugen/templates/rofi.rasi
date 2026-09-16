@@ -1,0 +1,43 @@
+* {
+    // Primary Colors - Solid background, transparent primary accent
+    background: {{colors.surface.dark.hex}};
+    background-alt: {{colors.surface_container.dark.hex}};
+    foreground: {{colors.on_surface.dark.hex}};
+    text-color: {{colors.on_surface.dark.hex}};
+    selected: {{colors.primary.dark.hex}};
+    active: {{colors.primary_container.dark.hex}};
+    urgent: {{colors.error.dark.hex}};
+    border-color: {{colors.outline.dark.hex}};
+    
+    // Rofi specific mappings
+    message-background: {{colors.surface_variant.dark.hex}};
+    power-colors: {{colors.primary.dark.hex}};
+    search-background: {{colors.primary.dark.hex}}30;
+    
+    // Legacy mapping for tokyonight.rasi
+    normal-background: transparent;
+    normal-foreground: {{colors.on_surface.dark.hex}};
+    active-background: {{colors.primary_container.dark.hex}};
+    active-foreground: {{colors.on_primary_container.dark.hex}};
+    urgent-background: {{colors.error_container.dark.hex}};
+    urgent-foreground: {{colors.on_error_container.dark.hex}};
+    
+    alternate-normal-background: transparent;
+    alternate-normal-foreground: {{colors.on_surface.dark.hex}};
+    alternate-active-background: {{colors.primary_container.dark.hex}};
+    alternate-active-foreground: {{colors.on_primary_container.dark.hex}};
+    alternate-urgent-background: {{colors.error_container.dark.hex}};
+    alternate-urgent-foreground: {{colors.on_error_container.dark.hex}};
+
+    selected-normal-background: {{colors.primary.dark.hex}}40;
+    selected-normal-foreground: {{colors.primary.dark.hex}};
+    selected-active-background: {{colors.primary.dark.hex}};
+    selected-active-foreground: {{colors.on_primary.dark.hex}};
+    selected-urgent-background: {{colors.error.dark.hex}};
+    selected-urgent-foreground: {{colors.on_error.dark.hex}};
+
+    selected-urgent-background: {{colors.error.dark.hex}};
+    selected-urgent-foreground: {{colors.on_error.dark.hex}};
+    selected-active-background: {{colors.primary.dark.hex}};
+    selected-active-foreground: {{colors.on_primary.dark.hex}};
+}
