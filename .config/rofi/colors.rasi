@@ -1,0 +1,43 @@
+* {
+    // Primary Colors - Solid background, transparent primary accent
+    background: #101510;
+    background-alt: #1c211b;
+    foreground: #e0e4db;
+    text-color: #e0e4db;
+    selected: #9ed49d;
+    active: #1f5027;
+    urgent: #ffb4ab;
+    border-color: #8c9389;
+    
+    // Rofi specific mappings
+    message-background: #424940;
+    power-colors: #9ed49d;
+    search-background: #9ed49d30;
+    
+    // Legacy mapping for tokyonight.rasi
+    normal-background: transparent;
+    normal-foreground: #e0e4db;
+    active-background: #1f5027;
+    active-foreground: #b9f0b8;
+    urgent-background: #93000a;
+    urgent-foreground: #ffdad6;
+    
+    alternate-normal-background: transparent;
+    alternate-normal-foreground: #e0e4db;
+    alternate-active-background: #1f5027;
+    alternate-active-foreground: #b9f0b8;
+    alternate-urgent-background: #93000a;
+    alternate-urgent-foreground: #ffdad6;
+
+    selected-normal-background: #9ed49d40;
+    selected-normal-foreground: #9ed49d;
+    selected-active-background: #9ed49d;
+    selected-active-foreground: #033912;
+    selected-urgent-background: #ffb4ab;
+    selected-urgent-foreground: #690005;
+
+    selected-urgent-background: #ffb4ab;
+    selected-urgent-foreground: #690005;
+    selected-active-background: #9ed49d;
+    selected-active-foreground: #033912;
+}

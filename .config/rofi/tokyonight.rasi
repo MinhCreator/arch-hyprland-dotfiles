@@ -1,0 +1,185 @@
+configuration {
+    modi: "drun";
+    show-icons: true;
+    display-drun: "Apps";
+    sidebar-mode: false;
+    font: "JetBrainsMono Nerd Font 10";
+}
+
+@import "colors.rasi"
+
+* {
+    grey: #8b938a;
+}
+
+window {
+    width: 750px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: @background;
+    padding: 16px;
+}
+
+mainbox {
+    spacing: 12px;
+    orientation: vertical;
+    background-color: transparent;
+    children: [ inputbar, message, listview ];
+}
+
+inputbar {
+    spacing: 0px;
+    padding: 16px 16px 54px 16px;
+    background-image: url("/home/priyam/.config/rofi/rofi-bg.jpg", width);
+    background-color: @background-alt;
+    border-radius: 16px;
+    orientation: horizontal;
+    children: [ searchbar ];
+}
+
+searchbar {
+    width: 250px;
+    expand: false;
+    background-color: @search-background;
+    border-radius: 16px;
+    padding: 6px 12px;
+    orientation: horizontal;
+    children: [ textbox-prompt-colon, entry ];
+}
+
+textbox-prompt-colon {
+    str: "";
+    expand: false;
+    margin: 0px 6px 0px 0px;
+    background-color: transparent;
+    text-color: @foreground;
+    font: "JetBrainsMono Nerd Font 10";
+}
+
+entry {
+    background-color: transparent;
+    text-color: @foreground;
+    placeholder: "Search";
+    placeholder-color: @grey;
+    font: "JetBrainsMono Nerd Font 10";
+}
+
+dummy {
+    expand: true;
+    background-color: transparent;
+}
+
+mode-switcher {
+    spacing: 8px;
+    background-color: transparent;
+}
+
+button {
+    padding: 6px 16px;
+    background-color: @background-alt;
+    text-color: @foreground;
+    border-radius: 16px;
+    font: "JetBrainsMono Nerd Font 10";
+}
+
+button selected {
+    background-color: @selected-normal-background;
+    text-color: @selected-normal-foreground;
+}
+
+message {
+    expand: false;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: @message-background;
+    text-color: @foreground;
+}
+
+textbox {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+listview {
+    expand: true;
+    columns: 2;
+    lines: 6;
+    scrollbar: true;
+    padding: 6px 0px 0px 0px;
+    background-color: transparent;
+    spacing: 6px;
+}
+
+element {
+    border: 0;
+    border-radius: 10px;
+    padding: 8px 12px;
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element-icon {
+    size: 1.8em;
+    padding: 0px 12px 0px 0px;
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element-text {
+    vertical-align: 0.5;
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element normal.urgent {
+    background-color: @urgent-background;
+    text-color: @urgent-foreground;
+}
+
+element normal.active {
+    background-color: @active-background;
+    text-color: @active-foreground;
+}
+
+element selected.normal {
+    background-color: @selected-normal-background;
+    text-color: @selected-normal-foreground;
+}
+
+element selected.urgent {
+    background-color: @selected-urgent-background;
+    text-color: @selected-urgent-foreground;
+}
+
+element selected.active {
+    background-color: @selected-active-background;
+    text-color: @selected-active-foreground;
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element alternate.urgent {
+    background-color: @alternate-urgent-background;
+    text-color: @alternate-urgent-foreground;
+}
+
+element alternate.active {
+    background-color: @alternate-active-background;
+    text-color: @alternate-active-foreground;
+}
+
+scrollbar {
+    width: 4px;
+    border: 0;
+    handle-width: 4px;
+    handle-color: @selected-normal-background;
+    background-color: transparent;
+}

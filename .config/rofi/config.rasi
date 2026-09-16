@@ -1,0 +1,116 @@
+configuration {
+    modi: "drun";
+    show-icons: true;
+    lazy-grab: true;
+
+    font: "JetBrainsMono Nerd Font 10";
+
+    drun-display-format: "{icon}  {name}";
+    display-drun: "Apps";
+    sidebar-mode: false;
+}
+
+* {
+    bg-col:    #1a1b26ee;
+    bg-col-light: #24283bee;
+
+    border-col: #7aa2f7;
+
+    selected-col: #7aa2f7;
+
+    blue: #7aa2f7;
+    fg-col: #c0caf5;
+
+    fg-col2: #1a1b26;
+
+    grey: #565f89;
+
+    width: 600;
+}
+
+window {
+    transparency: "real";
+    location: center;
+    anchor: center;
+
+    fullscreen: false;
+
+    width: 600px;
+
+    x-offset: 0px;
+    y-offset: 0px;
+
+    enabled: true;
+
+    margin: 0px;
+    padding: 0px;
+
+    border: 2px solid;
+    border-color: @border-col;
+
+    border-radius: 18px;
+
+    background-color: @bg-col;
+}
+
+mainbox {
+    background-color: transparent;
+}
+
+inputbar {
+    children: [prompt,entry];
+
+    background-color: @bg-col-light;
+
+    border-radius: 14px;
+
+    padding: 14px;
+    margin: 14px;
+}
+
+prompt {
+    enabled: true;
+    text-color: @blue;
+}
+
+entry {
+    background-color: transparent;
+    text-color: @fg-col;
+}
+
+listview {
+    border: 0px 0px 0px;
+
+    padding: 8px;
+    margin: 10px;
+
+    columns: 1;
+
+    lines: 8;
+
+    background-color: transparent;
+}
+
+element {
+    padding: 12px;
+    border-radius: 12px;
+
+    background-color: transparent;
+
+    text-color: @fg-col;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color: @fg-col2;
+}
+
+element-icon {
+    size: 28px;
+    background-color: transparent;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}

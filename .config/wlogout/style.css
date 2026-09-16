@@ -1,0 +1,71 @@
+@import "colors.css";
+
+* {
+    background-image: none;
+    box-shadow: none;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+button {
+    color: @on_surface;
+    background-color: alpha(@surface_container, 0.95);
+    border: none;
+    border-radius: 0px;
+    margin: 20px 0px; /* Vertically inset to allow room to grow */
+    padding: 10px;
+
+    background-repeat: no-repeat;
+    background-position: center 48px;
+    background-size: 38px;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Capsule ends for the unified container */
+#lock {
+    border-radius: 28px 0px 0px 28px;
+}
+#reboot {
+    border-radius: 0px 28px 28px 0px;
+}
+
+/* Hover effect: Expand to full height, round all corners, pop out horizontally, and apply Matugen accent */
+button:hover {
+    background-color: alpha(@primary, 0.45);
+    color: #ffffff;
+    border-radius: 28px;
+    margin: 0px 8px; /* Expand to full height, separate from neighbors */
+    box-shadow: 0 12px 30px alpha(@primary, 0.25);
+}
+
+/* High contrast white icons matching the screenshot */
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"));
+}
