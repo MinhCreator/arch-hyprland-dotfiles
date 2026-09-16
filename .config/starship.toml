@@ -1,0 +1,106 @@
+# ~/.config/starship.toml
+
+add_newline = true
+
+format = """
+$directory\
+$git_branch\
+$python\
+$cmd_duration
+$character
+"""
+
+#────────────────────────────────────────────
+# Directory
+#────────────────────────────────────────────
+
+[directory]
+truncation_length = 1
+truncate_to_repo = false
+style = ""
+format = "[](fg:#a6adc8)[  $path ](bg:#a6adc8 fg:#1e1e2e)[](fg:#a6adc8)"
+
+#────────────────────────────────────────────
+# Git
+#────────────────────────────────────────────
+
+[git_branch]
+symbol = " "
+style = ""
+format = "[](fg:#89b4fa)[ $symbol$branch ](bg:#89b4fa fg:#1e1e2e)[](fg:#89b4fa)"
+
+#────────────────────────────────────────────
+# Python / Conda
+#────────────────────────────────────────────
+
+[python]
+symbol = " "
+style = ""
+pyenv_version_name = false
+
+format = "[](fg:#a6e3a1)[ $symbol(${virtualenv}) ](bg:#a6e3a1 fg:#1e1e2e)[](fg:#a6e3a1)"
+
+#────────────────────────────────────────────
+# Command Duration
+#────────────────────────────────────────────
+
+[cmd_duration]
+min_time = 1000
+show_milliseconds = false
+style = ""
+format = "[](fg:#f9e2af)[ 󱎫 $duration ](bg:#f9e2af fg:#1e1e2e)[](fg:#f9e2af)"
+
+#────────────────────────────────────────────
+# Prompt Character
+#────────────────────────────────────────────
+
+[character]
+success_symbol = "[❯](bold #a6e3a1)"
+error_symbol = "[❯](bold #f38ba8)"
+vicmd_symbol = "[❮](bold #89b4fa)"
+
+#────────────────────────────────────────────
+# Disable modules
+#────────────────────────────────────────────
+
+[username]
+disabled = true
+
+[hostname]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[rust]
+disabled = true
+
+[golang]
+disabled = true
+
+[java]
+disabled = true
+
+[package]
+disabled = true
+
+[memory_usage]
+disabled = true
+
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[battery]
+disabled = true
+
+[time]
+disabled = true
