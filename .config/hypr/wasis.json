@@ -1,0 +1,467 @@
+{
+  "Anaconda-Navigator": {
+    "size": "1186 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "Chromium-browser": {
+    "size": "360 270",
+    "floating": true,
+    "splitratio": 0
+  },
+  "DesktopEditors": {
+    "size": "408 126",
+    "floating": true,
+    "splitratio": 0
+  },
+  "GitHub Desktop": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "Matplotlib": {
+    "size": "800 650",
+    "floating": true,
+    "splitratio": 0
+  },
+  "Notion": {
+    "size": "924 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "ONLYOFFICE": {
+    "size": "1920 1080",
+    "floating": false,
+    "splitratio": 0
+  },
+  "Spotify": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "Tk": {
+    "size": "909 523",
+    "floating": false,
+    "splitratio": 0
+  },
+  "Toplevel": {
+    "size": "126 20",
+    "floating": true,
+    "splitratio": 0
+  },
+  "Xdg-desktop-portal-gtk": {
+    "size": "1115 1266",
+    "floating": true,
+    "splitratio": 0
+  },
+  "antigravity": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "app.zen_browser.zen": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "blueman-manager": {
+    "size": "883 521",
+    "floating": true,
+    "splitratio": 0
+  },
+  "bobide": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "chromium": {
+    "size": "909 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "code": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "com.dec05eba.gpu_screen_recorder": {
+    "size": "530 247",
+    "floating": true,
+    "splitratio": 0
+  },
+  "com.nordplayer.nordplayer": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "com.obsproject.Studio": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "conhost.exe": {
+    "size": "445 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "control.exe": {
+    "size": "390 154",
+    "floating": true,
+    "splitratio": 0
+  },
+  "cursor": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "dev.anishroy.omniglyph": {
+    "size": "450 500",
+    "floating": true,
+    "splitratio": 0
+  },
+  "dev.zed.Zed": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "discord": {
+    "size": "755 812",
+    "floating": false,
+    "splitratio": 0
+  },
+  "feh": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "firefox": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "game.exe": {
+    "size": "1920 1080",
+    "floating": false,
+    "splitratio": 0
+  },
+  "gcr-prompter": {
+    "size": "615 172",
+    "floating": true,
+    "splitratio": 0
+  },
+  "google-chrome": {
+    "size": "943 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "hyprland-dialog": {
+    "size": "550 160",
+    "floating": true,
+    "splitratio": 0
+  },
+  "hyprland-donate-screen": {
+    "size": "770 286",
+    "floating": true,
+    "splitratio": 0
+  },
+  "hyprland-share-picker": {
+    "size": "952 800",
+    "floating": true,
+    "splitratio": 0
+  },
+  "hyprmod": {
+    "size": "484 312",
+    "floating": true,
+    "splitratio": 0
+  },
+  "io.github.bluemancz.hyprmod": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "io.github.realmazharhussain.GdmSettings": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "kdeconnect-app": {
+    "size": "712 480",
+    "floating": true,
+    "splitratio": 0
+  },
+  "kdialog": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "kitty": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "localsend": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "matplotlib": {
+    "size": "640 519",
+    "floating": true,
+    "splitratio": 0
+  },
+  "mpv": {
+    "size": "1920 1080",
+    "floating": true,
+    "splitratio": 0
+  },
+  "net.lutris.Lutris": {
+    "size": "727 848",
+    "floating": false,
+    "splitratio": 0
+  },
+  "nm-applet": {
+    "size": "576 266",
+    "floating": true,
+    "splitratio": 0
+  },
+  "nm-connection-editor": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "notepad.exe": {
+    "size": "463 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "nwg-displays": {
+    "size": "1764 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "nwg-look": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.freedesktop.MalcontentControl": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.Calculator": {
+    "size": "385 616",
+    "floating": true,
+    "splitratio": 0
+  },
+  "org.gnome.Calendar": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.Characters": {
+    "size": "800 600",
+    "floating": true,
+    "splitratio": 0
+  },
+  "org.gnome.Connections": {
+    "size": "909 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.Contacts": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.DiskUtility": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.Evince": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.Loupe": {
+    "size": "945 1023",
+    "floating": true,
+    "splitratio": 0
+  },
+  "org.gnome.Meld": {
+    "size": "1832 523",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.Nautilus": {
+    "size": "1151 660",
+    "floating": true,
+    "splitratio": 0
+  },
+  "org.gnome.NautilusPreviewer": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.SimpleScan": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.Snapshot": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.Software": {
+    "size": "909 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.TextEditor": {
+    "size": "700 520",
+    "floating": true,
+    "splitratio": 0
+  },
+  "org.gnome.Yelp": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.baobab": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.gnome.clocks": {
+    "size": "600 350",
+    "floating": true,
+    "splitratio": 0
+  },
+  "org.gnome.font-viewer": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.kde.gwenview": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.kde.kdeconnect.app": {
+    "size": "900 550",
+    "floating": true,
+    "splitratio": 0
+  },
+  "org.kde.kdeconnect.daemon": {
+    "size": "680 520",
+    "floating": true,
+    "splitratio": 0
+  },
+  "org.kde.kdeconnect.sms": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.localsend.localsend_app": {
+    "size": "943 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "org.pulseaudio.pavucontrol": {
+    "size": "500 599",
+    "floating": true,
+    "splitratio": 0
+  },
+  "org.telegram.desktop._b253b626b2ab5fddbff6d1033ac8a9e6": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "pop2.exe": {
+    "size": "292 82",
+    "floating": true,
+    "splitratio": 0
+  },
+  "princeofpersia.exe": {
+    "size": "428 185",
+    "floating": true,
+    "splitratio": 0
+  },
+  "registrationreminder.exe": {
+    "size": "545 388",
+    "floating": true,
+    "splitratio": 0
+  },
+  "setup.exe": {
+    "size": "702 560",
+    "floating": true,
+    "splitratio": 0
+  },
+  "start.exe": {
+    "size": "144 82",
+    "floating": true,
+    "splitratio": 0
+  },
+  "step 3 - setup_install_game.exe": {
+    "size": "285 80",
+    "floating": true,
+    "splitratio": 0
+  },
+  "swappy": {
+    "size": "1460 876",
+    "floating": true,
+    "splitratio": 0
+  },
+  "tutanota-desktop": {
+    "size": "1832 523",
+    "floating": false,
+    "splitratio": 0
+  },
+  "vlc": {
+    "size": "1900 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "wev": {
+    "size": "943 1014",
+    "floating": false,
+    "splitratio": 0
+  },
+  "wineboot.exe": {
+    "size": "300 81",
+    "floating": true,
+    "splitratio": 0
+  },
+  "winecfg.exe": {
+    "size": "410 446",
+    "floating": true,
+    "splitratio": 0
+  },
+  "wlogout": {
+    "size": "909 1060",
+    "floating": false,
+    "splitratio": 0
+  },
+  "xdg-desktop-portal-gtk": {
+    "size": "952 1018",
+    "floating": true,
+    "splitratio": 0
+  },
+  "zen": {
+    "size": "1920 1080",
+    "floating": false,
+    "splitratio": 0
+  },
+  "zoom": {
+    "size": "1832 1060",
+    "floating": false,
+    "splitratio": 0
+  }
+}
