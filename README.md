@@ -108,19 +108,19 @@ wl-clipboard → cliphist → Rofi
 ### Main Desktop
 
 <p align="center">
-  <img src="screenshots/main-desktop.png" alt="Main Desktop">
+  <img src="screenshots/desktop.png" alt="Main Desktop">
 </p>
 
 ### Control Dashboard
 
 <p align="center">
-  <img src="screenshots/control-dashboard.png" alt="Control Dashboard">
+  <img src="screenshots/dashboard.png" alt="Control Dashboard">
 </p>
 
 ### Media Player
 
 <p align="center">
-  <img src="screenshots/media-player.png" alt="Media Player">
+  <img src="screenshots/music.png" alt="Media Player">
 </p>
 
 ### Application Launcher
