@@ -1,0 +1,17 @@
+# ── Backup and Temporary Files ──
+*.bak
+*.save*
+*~
+*Copy*
+.~lock.*
+
+# ── Local User Data & Caches ──
+.cache/
+.local/
+*/.cache/
+*/.local/
+
+# ── Logs & Locks ──
+*.log
+*.pid
+*.lock

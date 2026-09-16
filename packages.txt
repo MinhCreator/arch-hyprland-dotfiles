@@ -1,0 +1,36 @@
+# ── Official Arch Linux Packages ──
+# Install with: sudo pacman -S <package>
+hyprland
+hyprlock
+hypridle
+kitty
+rofi
+cliphist
+wlogout
+cava
+starship
+matugen
+awww
+grim
+slurp
+swappy
+wl-clipboard
+network-manager-applet
+blueman
+bluez-utils
+socat
+pipewire-utils
+wireplumber
+brightnessctl
+jq
+curl
+python
+kdeconnect
+zenity
+dbus
+
+# ── AUR Packages ──
+# Install with: yay -S <package> (or paru)
+quickshell-git
+swayosd-git
+omniglyph
