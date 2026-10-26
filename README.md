@@ -3,7 +3,7 @@
 > My personal Arch Linux + Hyprland desktop configuration — built around Quickshell, dynamic Matugen theming, custom widgets, and a keyboard-driven workflow.
 
 <p align="center">
-  <img src="screenshots/main-desktop.png" alt="Hyprland Desktop">
+  <img src="screenshots/desktop.png" alt="Hyprland Desktop">
 </p>
 
 <p align="center">
